@@ -1,0 +1,94 @@
+body{
+  background-color: #fff;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+.icon{
+  height: 15px;
+  
+}
+.form-control{
+  width: 500px;
+}
+.nav-item{
+  display: flex;
+  align-items: flex-end;
+  margin-left: 60px;
+}
+h1{
+  margin: 0;
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.products{
+  max-width: 1240px;
+  margin:20px auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+}
+.product{
+  background-color: whitesmoke;
+  border: 1px solid burlywood;
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+img{
+  width:100%;
+  height: 150px;
+}
+h2 {
+  display: block;
+  /* font-size: 1.5rem; */
+  font-size: medium;
+  font-weight:500;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+ 
+}
+.cart{
+  width: 50px;
+  height: 30px;
+  
+}
+.flipkart{
+  height: 50px;
+  width: 250px;
+}
+.nav-link{
+  padding-top:5px;
+}
+.nav-link.active{
+  padding-top: 5px;
+}
+.nav-link.dropdown-toggle{
+ margin-top: 10px;
+}
+.seller{
+  width: 50px;
+  height: 30px;
+}
+.drop2{
+  height:45px;
+  width: 20px;
+}
+.drop1{
+  height:20px;
+  width: 20px;
+}
+.drop3{
+  height:20px;
+  width: 20px;
+}
+.drop4{
+  height:20px;
+  width: 20px;
+}
